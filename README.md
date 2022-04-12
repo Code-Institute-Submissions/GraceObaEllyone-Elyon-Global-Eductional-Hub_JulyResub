@@ -30,12 +30,16 @@ Advanced potential feature (nice-to-have)
 FRONT-END Content 
 
 Goals for Webdesign- 
+
+
 Elyon Global Learning Hub [EGLH] is set up to 
 provide kickstarting  educational need driven experience with a profitable lifestyle 
 build on Individual  Prior Learning[IPL] outside the four walls of the mainstream setting for those who find group learning challenging in the traditional formal setting.
 
 
 SITE INTRODUCTION
+
+
 Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget in 
 
 Childcare Health and Social Care
