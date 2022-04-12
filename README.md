@@ -1,13 +1,16 @@
 # PROJECT IDEA TITLE :ELYON GLOBAL LEARNING HUB | We provide both accredited and non accredited vocational coursethat meets your individual needs within your budget and affordable
+
 BACK-END
 I am building a site to sell a Coaching Services
 
  External user’s goal: 
+ 
 ● Learners are able to purchase  course to address their needs
 Site owner's goal: 
 
 ● I will be able to earn money for provision of freelance coaching work 
 Potential features to include: 
+
 ● Showcase prior work for clients, based on different kinds of course requests, and the customer's testimonials. 
 
 ● Allow users to order a particular course to suit their goals. 
@@ -22,7 +25,7 @@ Advanced potential feature (nice-to-have)
 
 ● Once the learner accepts the offer and complete the course, they would write a testimonial of the final success of completing the course would be automatically included in the site's showcase. 
 
-● Build a custom js display mechanism for the Elyon Global Educational Hub Community Blog/reflective learning journal i.e learners’ experience .
+● Build a custom js display mechanism for the Elyon Global Learning Hub Community Blog/reflective learning journal i.e learners’ experience .
 
 FRONT-END Content 
 
