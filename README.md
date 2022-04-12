@@ -4,7 +4,7 @@ I am building a site to sell a Coaching Services
  External user’s goal: 
 ● Learners are able to purchase  course to address their needs
 Site owner's goal: 
-● I will be able to earn money for provision of freelance  coaching work 
+● I will be able to earn money for provision of freelance coaching work 
 Potential features to include: 
 ● Showcase prior work for clients, based on different kinds of course requests, and the customer's testimonials. 
 ● Allow users to order a particular course to suit their goals. 
@@ -18,12 +18,12 @@ Advanced potential feature (nice-to-have)
 ● Build a custom js display mechanism for the Elyon Global Educational Hub Community Blog/reflective learning journal i.e learners’ experience .
 
 FRONT-END Content 
-Goals for Webdesign- Elyon Global Educational Hub [EGEH] is set up to 
+Goals for Webdesign- Elyon Global Learning Hub [EGLH] is set up to 
 provide kickstarting  educational need driven experience with a profitable lifestyle 
 build on Individual  Prior Learning[IPL] outside the four walls of the mainstream setting for those who find group learning challenging in the traditional formal setting.
 
 SITE INTRODUCTION
-Elyon Global Educational welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget
+Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget
 in 
 Childcare Health and Social Care
 Business support and Tourism
