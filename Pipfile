@@ -5,6 +5,12 @@ name = "pypi"
 
 [packages]
 pillow = "*"
+stripe = "*"
+sqlparse = "*"
+s3transfer = "*"
+requests-oauthlib = "*"
+pytz = "*"
+oauthlib = "*"
 
 [dev-packages]
 
