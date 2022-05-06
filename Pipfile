@@ -11,6 +11,7 @@ s3transfer = "*"
 requests-oauthlib = "*"
 pytz = "*"
 oauthlib = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
