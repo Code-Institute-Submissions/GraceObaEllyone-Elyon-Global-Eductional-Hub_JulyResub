@@ -28,3 +28,6 @@ class CourseOrder(models.Model):
         Generate Order number using user id uuid
         """
         return uuid.uuid4().hex.upper()
+
+
+

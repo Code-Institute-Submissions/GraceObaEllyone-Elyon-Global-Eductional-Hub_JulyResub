@@ -8,6 +8,7 @@ class CourseForm(forms.ModelForm):
         model = Course
         exclude = ('rating',)
 
+
 class CourseReviewForm(forms.ModelForm):
     class Meta:
         model = CourseReview

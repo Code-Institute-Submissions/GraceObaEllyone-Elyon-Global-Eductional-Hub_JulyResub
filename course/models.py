@@ -9,6 +9,7 @@ class Course(models.Model):
     category = models.CharField(max_length=254)
     price = models.DecimalField(max_digits=6, decimal_places=2)
     description = models.TextField()
+    requrements = models.TextField()
     rating = models.DecimalField(max_digits=6, decimal_places=2,
                                  null=True, blank=True)
     course_image = models.ImageField(null=False, blank=True)
