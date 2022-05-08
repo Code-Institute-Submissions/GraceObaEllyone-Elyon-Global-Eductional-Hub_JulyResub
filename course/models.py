@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 
 # Create your models here.
-
+#Added Models
 class Course(models.Model):
     name = models.CharField(max_length=500)
     category = models.CharField(max_length=254)
