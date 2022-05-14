@@ -1,57 +1,21 @@
-{% extends "base.html" %} {% load static %}
-{% load crispy_forms_filters %}
+{% extends "account/base.html" %}
 
 {% load i18n %}
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
- <!-- breadcrumb start -->
-    <div class="breadcrumb-area bg-overlay" style="background-image:url('{% static 'assets/img/bg/3.png' %}')">
-        <div class="container">
-            <div class="breadcrumb-inner">
-                <div class="section-title mb-0 text-center">
-                    <h2 class="page-title">{% trans "Sign Up" %}</h2>
-                    <ul class="page-list">
-                        <li><a href="{% url 'home' %}">Home</a></li>
-                        <li>Sign Up</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- breadcrumb end -->
+<h1>{% trans "Sign Up" %}</h1>
 
-     <!-- signUp-page-Start -->
-    <div class="signin-page-area pd-top-120 pd-bottom-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7">
-                    <form class="signin-inner" id="signup_form" method="post" action="{% url 'account_signup' %}" >
-                        {% csrf_token %}
-                            {{ form|crispy }}
-                        <div class="row">
-                            {% if redirect_field_value %}
-                            <div class="col-12">
-                                <div class="single-input-inner style-bg-border">
-                                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                                </div>
-                            </div>
-                            {% endif %}
-                            <div class="col-12 mb-4">
-                                <button class="btn btn-base w-100">{% trans "Sign Up" %} </button>
-                            </div>
-                            <div class="col-12">
-                                <a > Already Have account  </a>
-                                <a href="{{ login_url }}"><strong>&nbsp;&nbsp;SignIn</strong></a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- signin-page-end -->
+<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
 
+<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+  {% csrf_token %}
+  {{ form.as_p }}
+  {% if redirect_field_value %}
+  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  {% endif %}
+  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
+</form>
 
 {% endblock %}

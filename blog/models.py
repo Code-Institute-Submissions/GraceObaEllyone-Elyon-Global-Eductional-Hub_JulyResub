@@ -4,30 +4,30 @@ from django.db import models
 # Create your models here.
 from django.template.defaultfilters import slugify
 
-# Create your models here.
-
+from course.models import Course, Category
 
 STATUS = (
-    (0, "Draft"),
-    (1, "Publish")
+    (0, 'Draft'),
+    (1, 'Publish')
 )
 
 
 class BlogPost(models.Model):
-    title = models.CharField(max_length=300, unique=True)
-    slug = models.SlugField(max_length=300, unique=True)
+    title = models.CharField(max_length=200, unique=True)
+    slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
-    category = models.CharField(max_length=300)
-    updated_on = models.DateTimeField(auto_now=True)
+    course = models.ForeignKey(Course, null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ManyToManyField(Category, null=True, blank=True)
     content = models.TextField()
-    created_on = models.DateTimeField(auto_now_add=True, verbose_name='post_created_name')
+    updated_on = models.DateTimeField(auto_now=True)
+    created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
 
     class Meta:
         ordering = ['-created_on']
 
     def __str__(self):
-        return '{}, {}'.format(self.title, self.category)
+        return '{}, {}'.format(self.title, self.course)
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
@@ -36,23 +36,24 @@ class BlogPost(models.Model):
 
 class BlogImage(models.Model):
     image = models.ImageField(null=False)
-    blog_post_id = models.ForeignKey('BlogPost', null=True, blank=True,
-                                     on_delete=models.SET_NULL, verbose_name='image_blog_post_id')
+    blogpost_id = models.ForeignKey('BlogPost', null=True, blank=True,
+                                    on_delete=models.SET_NULL, verbose_name='image_blogpost_id')
 
     def __str__(self):
-        return '{}, {}'.format(self.image, self.blog_post_id)
+        return '{}, {}'.format(self.image, self.blogpost_id)
 
 
 class BlogComment(models.Model):
-    blog_post_id = models.ForeignKey('BlogPost', null=True,
-                                     related_name='comments', blank=True, on_delete=models.SET_NULL)
-    user_id = models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL)
-    comment_title = models.CharField(max_length=100)
-    comment_desc = models.TextField(max_length=300)
+    blogpost_id = models.ForeignKey('BlogPost', null=True, related_name='comments',
+                                    blank=True, on_delete=models.SET_NULL)
+    user_id = models.ForeignKey(User, null=True, blank=True,
+                                on_delete=models.SET_NULL)
+    comment_tittle = models.CharField(max_length=100)
+    blog_comment = models.TextField(max_length=300)
     created_on = models.DateTimeField(auto_now_add=True, verbose_name='comment_created_date')
 
     class Meta:
         ordering = ['-created_on']
 
     def __str__(self):
-        return '{}, {}, {}'.format(self.blog_post_id, self.user_id, self.comment_title)
+        return '{}, {}, {}'.format(self.blogpost_id, self.user_id, self.comment_tittle)
