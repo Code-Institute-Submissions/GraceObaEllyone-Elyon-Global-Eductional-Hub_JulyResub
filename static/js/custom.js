@@ -305,6 +305,9 @@
         fixedContentPos: false
     });
 
+
+
+
     // Count Time JS
 	function makeTimer() {
 		var endTime = new Date("October 30, 2022 17:00:00 PDT");			

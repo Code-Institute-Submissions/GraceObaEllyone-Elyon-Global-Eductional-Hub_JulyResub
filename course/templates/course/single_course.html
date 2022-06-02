@@ -426,8 +426,9 @@
                                     <li>Access on mobile and TV</li>
                                     <li>Certificate of completion</li>
                                 </ul>
-                                <form method="post" action="{% url 'add_blog' %}">
+                                <form method="post" action="{% url 'add_to_cart'  course.id %}">
                                     {% csrf_token %}
+                                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                     <button  type="submit" class="default-btn ">
                                                         Add  Course
                                                     </button>

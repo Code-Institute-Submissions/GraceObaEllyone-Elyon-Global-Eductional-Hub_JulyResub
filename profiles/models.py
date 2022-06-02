@@ -8,7 +8,6 @@ from django.dispatch import receiver
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    description = models.TextField(max_length=200, null=True, blank=True)
     userPicture = models.ImageField(null=False, blank=True)
     default_email = models.EmailField(max_length=300, null=False, blank=False)
     default_postcode = models.CharField(max_length=20, null=False, blank=True)
@@ -26,3 +25,8 @@ def create_update_user_profile(sender, instance, created, **kwargs):
     if created:
         UserProfile.objects.create(user=instance)
     instance.userprofile.save()
+
+
+class UserGroup(models.Model):
+    name = models.CharField(max_length=50)
+    type = models.IntegerField(max_length=2)
