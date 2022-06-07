@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'blog',
     'profiles',
     'cart',
+    'payments',
 
     'debug_toolbar',
     # Other
