@@ -1,4 +1,129 @@
+
+# Elyon Educomm Enterprise
+
 # PROJECT IDEA TITLE :ELYON GLOBAL LEARNING HUB | We provide both accredited and non accredited vocational coursethat meets your individual needs within your budget and affordable
+
+Ongoing research in the field of Providing the different kind of online courses through this platform:
+
+- Its easy way to learn or gain knoweledge anywhere in world through online platform.
+- Online course platform will provide all learning materials 
+- Easy to connect with tutors and solve the real time problems.
+- provide both accredited and non accredited vocational coursethat meets your individual needs within your budget and affordable.
+
+
+[Elyon Educomm Enterprise] (https://github.com/GraceObaEllyone/Elyon-Global-Eductional-Hub/) is an online course provider platform, which offers the course and all related learning materials, but also provides the support systems where students can be get the feedback on the progress.
+The Elyon Educomm Enterprise also publish the blog on the realted all courses to give all kind of knoweledhe about the course where any users can leave there feedback.
+
+<div align="center"><img src = "readmeImages/mockup.jpg" width=900></div>
+
+This image is created with [smartmockups.com](http://smartmockups.com/).
+
+
+## Table of Contents
+
+1. [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+
+2. [Features](#features)
+    - [Existing Features](#existing-features)
+        - [Landing Page](#landing-page)
+        - [Courses Page](#product-page)
+        - [Cart Page](#cart-page)
+        - [Checkout Page](#checkout-page)
+        - [Blog Page](#blog-page)
+        - [Profiles Page](#profiles-page)
+        - [Admin Product Managment](#admin-product-managment)
+        - [Django allauth features](#django-allauth-features)
+    - [Features Left to Implement](#features-left-to-implement)
+    - [Defensive Design](#defensive-design)
+
+3. [Information Architecture](#information-architecture)
+    - [Database Choice](#database-choice)
+    - [Data Modeling](#data-modeling)
+
+4. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Libraries and Packages](#libraries-and-packages)
+    - [Tools](#tools)
+    - [Databases](#databases)
+
+5. [Testing](#testing)
+
+
+# UX
+## Project Goals
+### Target Audience
+- Students who are looking for the learning new skill online.
+- People who dont have time to go physically in classes to learn new skill.
+- People who wants to gain new skill while working on the there existing job.
+- Students who wants to spend less time and less money for getting new learning sets.
+- People who are interested in reading blog in short term of time or share the knoweledge with the other peoples.
+- Users who can give the geneue feedback on the course and who want to get that skill so they can see the review an feedback given by other students.
+
+### Visitor / User Goals
+- User/Students can get the review feedback or they can check the quality of course before purchasing it.
+- Book the Course in easy and secure way with extra security majors.
+- Gain the knoweldge about the different kind of the skills using the articles provide by different users. users can share the knowedlge with other users by writing the blog.
+
+
+<div><a href="#table-of-contents">Back to top</a></div>
+
+
+## User Stories
+
+- Viewing and Navigation
+
+| AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
+| ----------- | ----------- | ----------- |
+| Website User/ Student | access the website with any devices | Use the website anytime and anywhere |
+| Student | Easily see what services are offered | Find the service I want to use |  
+| Student | All the important services are accesible from nav bar| Don't need to scroll to find important information |
+| Student | Have a booking cart icon on nav bar | Always check the current order and checkout when I want |
+
+<br/>
+
+- Registration, User Accounts and User Community
+
+| AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
+| ----------- | ----------- | ----------- |
+| Website User | Easily register for an account | Have a personal account where I can edit my information |  
+| Website User | View my course history | I cant book same course again |
+| Website User | Easily recover my password in case I forget it | Recover access to my account |
+| Website User | Receive an email confirmation after registering | Verify that my account registration was successful |
+| Admin | Post a blog about Different area of learning | Give site visitors interesting information of diffent skills |
+| Admin | Let the site users log in when they leave comments/reviews | Track who left comments/reviews |
+| Users | Add comments to the blog posts | Write down my thoughts on the post |
+
+<br/>
+
+- Online course booking
+
+| AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
+| ----------- | ----------- | ----------- |
+| Students | Search a course with keywords | Find the most appropriate Course |
+| Students | View individual course pages that have prices, descriptions, time, etc | Get detailed information about the course before purchasing |
+| Students | Filter by a specific category | Easily find course in a specific category |
+| Student/Admin | Leave/View course reviews with scores | Understand which course are popular with other students |
+|Admin | Easily add a new course | Make sure the online site has the latest catalogue |
+
+<br/>
+
+- Cart, Purchasing and Checkout
+
+| AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
+| ----------- | ----------- | ----------- |
+| Student | Easily select the course to a cart | Ensure I don't accidentally select the wrong course | 
+| Student | The billing  information is prefilled if logged in | Smoothly proceed with my purchase | 
+| Studnets | Automatically suggest to log in if I did not log in | Smoothly proceed with my purchase | 
+
+<br/>
+
+<div><a href="#table-of-contents">Back to top</a></div>
+
+
+## Design
 
 BACK-END
 I am building a site to sell a Coaching Services
