@@ -8,10 +8,10 @@ Ongoing research in the field of Providing the different kind of online courses 
 - Its easy way to learn or gain knoweledge anywhere in world through online platform.
 - Online course platform will provide all learning materials 
 - Easy to connect with tutors and solve the real time problems.
-- provide both accredited and non accredited vocational coursethat meets your individual needs within your budget and affordable.
+- provide both accredited and non accredited vocational course that meets your individual needs within your budget and affordability.
 
 
-[Elyon Educomm Enterprise] (https://github.com/GraceObaEllyone/Elyon-Global-Eductional-Hub/) is an online course provider platform, which offers the course and all related learning materials, but also provides the support systems where students can be get the feedback on the progress.
+(https://github.com/GraceObaEllyone/Elyon-Global-Learning-Hub/) is an online course provider platform by Elyon Educomm Enterprise, which offers courses with certification by well-known awarding bodies and all related learning materials, nevertheless, also provides the support systems where students can be get the feedback on their progress.
 The Elyon Educomm Enterprise also publish the blog on the realted all courses to give all kind of knoweledhe about the course where any users can leave there feedback.
 
 <div align="center"><img src = "readmeImages/mockup.jpg" width=900></div>
@@ -55,17 +55,18 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 # UX
 ## Project Goals
 ### Target Audience
-- Students who are looking for the learning new skill online.
-- People who dont have time to go physically in classes to learn new skill.
-- People who wants to gain new skill while working on the there existing job.
+- Students who are looking to learn new skill online.
+- People who don't have time to go physically in classes to learn new skill.
+- People who wants to up-skill while in full-time a=or part-time employment.
 - Students who wants to spend less time and less money for getting new learning sets.
 - People who are interested in reading blog in short term of time or share the knoweledge with the other peoples.
-- Users who can give the geneue feedback on the course and who want to get that skill so they can see the review an feedback given by other students.
+- Users who want a reliable and trustworthy orgnisation with 5 stars feedback guarantee to sign up to gain new skills
 
 ### Visitor / User Goals
 - User/Students can get the review feedback or they can check the quality of course before purchasing it.
-- Book the Course in easy and secure way with extra security majors.
-- Gain the knoweldge about the different kind of the skills using the articles provide by different users. users can share the knowedlge with other users by writing the blog.
+- Book the course in easy and secure way with extra security majors.
+- Gain the knoweldge about the different kind of the skills using the articles provide by different users. 
+- Users can share the knowedlge with other users by writing the blog.
 
 
 <div><a href="#table-of-contents">Back to top</a></div>
