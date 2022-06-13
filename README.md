@@ -1,7 +1,7 @@
 
 # Elyon Educomm Enterprise
 
-# PROJECT IDEA TITLE :ELYON GLOBAL LEARNING HUB | We provide both accredited and non accredited vocational coursethat meets your individual needs within your budget and affordable
+# PROJECT IDEA TITLE :ELYON GLOBAL LEARNING HUB | We provide both accredited and non accredited vocational courses that meets your individual needs within your budget and affordable
 
 Ongoing research in the field of Providing the different kind of online courses through this platform:
 
