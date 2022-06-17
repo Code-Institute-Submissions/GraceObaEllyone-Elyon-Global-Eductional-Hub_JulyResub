@@ -1,24 +1,44 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from django.shortcuts import render
 
 
 # Create your views here.
-from home.forms import ContactForm
-from profiles.models import UserProfile
+from course.models import Course, Category
 
 
 def index(request):
+    course_list = Course.objects.all()
+    total = course_list.count()
 
-    template = 'home/index.html'
+    paginator = Paginator(course_list, 6)
+    page = request.GET.get('page')
 
-    if request.user.is_authenticated:
-        profile = get_object_or_404(UserProfile, user=request.user)
-        contact_form = ContactForm(initial={"email": profile.default_email})
-    else:
-        contact_form = ContactForm()
+    try:
+        courses = paginator.page(page)
+    except PageNotAnInteger:
+        courses = paginator.page(1)
+    except EmptyPage:
+        courses = paginator.page(paginator.num_pages)
+
+    categoryList = Category.objects.all()
+    categoryTotal = categoryList.count()
 
     context = {
-        'contact_form': contact_form,
+        'courses': courses,
+        'total': total,
+        'categories': categoryList,
+        'categoryTotal': categoryTotal
     }
+
+    template = 'index.html'
     return render(request, template, context)
 
 
+def contactform(request):
+    template = 'contact.html'
+    return render(request, template)
+
+
+def aboutUs(request):
+    template = 'about.html'
+    return render(request, template)

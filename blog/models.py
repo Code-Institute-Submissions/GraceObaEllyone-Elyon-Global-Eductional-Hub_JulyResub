@@ -14,10 +14,12 @@ STATUS = (
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=200, unique=True)
+    blogImage = models.ImageField(null=False, blank=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
     course = models.ForeignKey(Course, null=True, blank=True, on_delete=models.SET_NULL)
     category = models.ManyToManyField(Category, null=True, blank=True)
+
     content = models.TextField()
     updated_on = models.DateTimeField(auto_now=True)
     created_on = models.DateTimeField(auto_now_add=True)

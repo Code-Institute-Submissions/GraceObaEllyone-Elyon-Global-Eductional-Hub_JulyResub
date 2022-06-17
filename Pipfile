@@ -9,6 +9,8 @@ pillow = "*"
 django-crispy-forms = "*"
 django-allauth = "*"
 django-debug-toolbar = "*"
+dj-config-url = "*"
+dj-database-url = "*"
 
 [dev-packages]
 

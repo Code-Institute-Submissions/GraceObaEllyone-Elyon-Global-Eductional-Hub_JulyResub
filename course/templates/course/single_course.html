@@ -12,10 +12,6 @@
                         <i class="ri-star-fill"></i>4k+ rating
                     </div>
                     <div class="inner-banner-content">
-                        <a href="instructors-details.html" class="user-area">
-                            <img src="{% static 'images/courses/courses-instructors1.jpg' %}" alt="Instructors">
-                            <h3>David warner</h3>
-                        </a>
                         <ul class="course-list">
                             <li><i class="ri-time-fill"></i> {{ course.duration_hour }} hr {{ course.duration_min }} min</li>
                         </ul>
@@ -45,14 +41,6 @@
                                     </li>
 
                                     <li>
-                                        Curriculum
-                                    </li>
-
-                                    <li>
-                                        Instructor
-                                    </li>
-
-                                    <li>
                                         Reviews
                                     </li>
                                 </ul>
@@ -72,212 +60,12 @@
                                                     {{ course.requirement }}
                                                 </p>
                                             </div>
-                                            <div class="courses-details-into">
-                                                <h3>What you'll learn</h3>
-                                                <p>
-                                                    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non
-                                                    nisi. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia
-                                                    eget consectetur sed, convallis at tellus.
-                                                </p>
-                                                <p>
-                                                    Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet
-                                                    et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor felis porttitor volutpat.
-                                                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus. Vivamus suscipit tortor eget.
-                                                </p>
-                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="tabs_item">
-                                        <div class="courses-details-tab-content">
-                                            <div class="courses-details-accordion">
-                                                <ul class="accordion">
-                                                    <li class="accordion-item">
-                                                        <a class="accordion-title active" href="javascript:void(0)">
-                                                            <i class="ri-add-fill"></i>
-                                                            Introduction
-                                                        </a>
-                                                        <div class="accordion-content show">
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-file-text-line"></i>
-                                                                    Introduction to the course
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag">3 question</div>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-time-line"></i>
-                                                                    Structure of the course
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-bookmark-3-fill"></i>
-                                                                    Required tools
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <span>12 lectures</span>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-lock-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-time-line"></i>
-                                                                    Get your free E-book
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag">3 question</div>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="accordion-item">
-                                                        <a class="accordion-title" href="javascript:void(0)">
-                                                            <i class="ri-add-fill"></i>
-                                                            Design Basics
-                                                        </a>
-                                                        <div class="accordion-content">
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-file-text-line"></i>
-                                                                    Intro to basic design
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-file-text-line"></i>
-                                                                    Layout
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <span>12 lectures</span>
-                                                                    <div class="tag">3 question</div>
-                                                                    <div class="tag2">20 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-file-text-line"></i>
-                                                                    Visual noise
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <span>10 lectures</span>
-                                                                    <div class="tag">6 question</div>
-                                                                    <div class="tag2">20 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-a-b"></i>
-                                                                    Typography
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <i class="ri-lock-line"></i>
-                                                                </div>
-                                                            </div>
 
-                                                        </div>
-                                                    </li>
-                                                    <li class="accordion-item">
-                                                        <a class="accordion-title active" href="javascript:void(0)">
-                                                            <i class="ri-add-fill"></i>
-                                                            Figma Academy
-                                                        </a>
-                                                        <div class="accordion-content show">
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-file-text-line"></i>
-                                                                    Introduction to the course
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag">3 question</div>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-time-line"></i>
-                                                                    Structure of the course
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-bookmark-3-fill"></i>
-                                                                    Required tools
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <span>12 lectures</span>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-lock-line"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-content-list">
-                                                                <div class="accordion-content-left">
-                                                                    <i class="ri-time-line"></i>
-                                                                    Get your free E-book
-                                                                </div>
-                                                                <div class="accordion-content-right">
-                                                                    <div class="tag">3 question</div>
-                                                                    <div class="tag2">30 min</div>
-                                                                    <i class="ri-play-circle-line"></i>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="tabs_item">
-                                        <div class="courses-details-tab-content">
-                                            <div class="courses-details-instructor">
-                                                <h3>About the instructor</h3>
-                                                <div class="details-instructor">
-                                                    <img src="{% static 'images/courses/instructors4.jpg' %}" alt="instructor" />
-                                                    <h3>Lauren Handerson</h3>
-                                                    <span>iOS Developer & UI Designer</span>
-                                                </div>
-                                                <ul class="course-list">
-                                                    <li> <i class="ri-star-fill"></i>5 (30+ rating)</li>
-                                                    <li><i class="ri-vidicon-fill"></i> 67 lectures</li>
-                                                    <li><i class="ri-time-fill"></i> 10 hr 07 min</li>
-                                                </ul>
-                                                <p>
-                                                    Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non
-                                                    nisi. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia
-                                                    eget consectetur sed, convallis at tellus.
-                                                </p>
-                                                <p>
-                                                    Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet
-                                                    et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor felis porttitor volutpat.
-                                                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+
 
                                     <div class="tabs_item">
                                         <div class="courses-details-tab-content">
@@ -363,6 +151,7 @@
                                                     </div>
                                                 </div>
 
+                                                {% if request.user.is_authenticated %}
                                                 <div class="review-form">
                                                     <div class="contact-wrap-form">
                                                         <div class="contact-form">
@@ -403,6 +192,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                {% endif %}
                                             </div>
                                         </div>
                                     </div>
@@ -417,15 +207,9 @@
                             <img src="{{ course.courseImage.url }}" alt="Courses" />
                             <div class="content">
                                 <h3>$ {{ course.price }}</h3>
-                                <span>This course includes:</span>
-                                <ul class="courses-details-list">
-                                    <li>8.5 hours on-demand video</li>
-                                    <li>2 articles</li>
-                                    <li>16 downloadable resources</li>
-                                    <li>Full lifetime access</li>
-                                    <li>Access on mobile and TV</li>
-                                    <li>Certificate of completion</li>
-                                </ul>
+
+                                <br><br>
+
                                 <form method="post" action="{% url 'add_to_cart'  course.id %}">
                                     {% csrf_token %}
                                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
@@ -459,10 +243,6 @@
             </div>
         </div>
         <!-- Courses Details Area End -->
-
-
-
-
 
 {% endblock %}
 

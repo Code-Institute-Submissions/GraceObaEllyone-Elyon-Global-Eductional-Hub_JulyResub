@@ -53,7 +53,7 @@
                             </a>
                             <div class="content">
                                 <a href="{% url 'single_course' course.pk %}" class="tag-btn">Design</a>
-                                <div class="price-text">$120</div>
+                                <div class="price-text">£ {{ course.price }}</div>
                                 <h3><a href="{% url 'single_course' course.pk %}">{{ course.title }}</a></h3>
                                 <ul class="course-list">
                                     <li><i class="ri-time-fill"></i> {{ course.duration_hour }} hr {{ course.duration_min }} min</li>

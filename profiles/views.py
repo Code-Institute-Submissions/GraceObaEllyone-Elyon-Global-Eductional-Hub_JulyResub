@@ -23,3 +23,4 @@ def update_details(request):
     }
 
     return render(request, 'update_profile.html', context)
+

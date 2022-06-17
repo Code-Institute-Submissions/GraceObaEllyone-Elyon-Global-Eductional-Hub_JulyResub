@@ -1,4 +1,5 @@
 from django.contrib import messages
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.shortcuts import render, get_object_or_404, redirect
 
 # Create your views here.
@@ -31,8 +32,26 @@ def single_post(request, slug):
 
 
 def all_blog(request):
-    template = 'add_blog.html'
-    return render(request, template)
+    blog_list = BlogPost.objects.all()
+
+    paginator = Paginator(blog_list, 6)
+    page = request.GET.get('page')
+
+    total = blog_list.count()
+
+    try:
+        blogs = paginator.page(page)
+    except PageNotAnInteger:
+        blogs = paginator.page(1)
+    except EmptyPage:
+        blogs = paginator.page(paginator.num_pages)
+
+    context = {
+        'blogs': blogs,
+        'total': total
+    }
+    template = 'blog.html'
+    return render(request, template, context)
 
 
 def add_blog(request):
@@ -96,7 +115,6 @@ def edit_blog(request, blog_pk):
         blog_image_form = BlogImageForm(request.POST, request.FILES, instance=blog_image)
         messages.info(
             request, f'You are editing a product details: {blog_post.title}')
-
 
         context = {
             'blog_form': blog_form,
