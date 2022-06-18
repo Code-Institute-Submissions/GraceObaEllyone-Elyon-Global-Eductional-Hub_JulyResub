@@ -12,6 +12,14 @@ django-debug-toolbar = "*"
 dj-config-url = "*"
 dj-database-url = "*"
 whitenoise = "*"
+psycopg2-binary = "*"
+stripe = "*"
+boto3 = "*"
+botocore = "*"
+coverage = "*"
+pytz = "*"
+gunicorn = "*"
+django-storages = "*"
 
 [dev-packages]
 
