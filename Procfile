@@ -1,1 +1,1 @@
-web: gunicorn CourseFinder.wsgi.application
+web: gunicorn --pythonpath app CourseFinder:app
