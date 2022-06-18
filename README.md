@@ -186,3 +186,14 @@ Learner's Data Acessibility
 Leaners’ Portfolio
 Leaners’ end of course survey
 Learner's ratings | Evaluation
+
+
+
+
+
+
+Credits 🙏 
+Code Institute Stack Overflow Code Institute Slack Community. 
+My mentor Guido Cecilio for guidance and support. 
+My family and friends for their patience and honest critique throughout. 
+My Personal Tutor
