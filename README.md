@@ -296,7 +296,7 @@ The will store learners details and work submitted for internal and externation 
 1. I enrolled for Teaching assistant  @ level 2 childcare course, I was surprised with leve of suppoert I received. Thanks to my Tutor | Mrs E 
 
 2. I am really enjoying the course and my placement now compared to my first review when I have not started my placement. I have gained a lot of knowledge from completing my previous assignments and continually developing new skills in the work environment from both the children and the staff. I have received a lot of support and helpful advice from my tutor.
-I hope that once I have completed the course, I will be able to progress with my career. | Mrs J Working with Children
+I hope that once I have completed the course, I will be able to progress with my career. | Mrs J - Working with Children
 
 
 **Credits 🙏 **
