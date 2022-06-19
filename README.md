@@ -213,7 +213,6 @@ The main frontend development was created using HTML, CSS, JavaScript and their 
 - Gitpod
 - [PIP](https://pip.pypa.io/en/stable/installing/)
 - [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
-- [dbdiagram.io](https://dbdiagram.io/home)
 - [AWS S3 bucket](https://aws.amazon.com/)
 
 ## Databases
