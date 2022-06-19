@@ -236,6 +236,18 @@ The main frontend development was created using HTML, CSS, JavaScript and their 
 - [SQlite3](https://www.sqlite.org/index.html)- database used for development.
 - [PostgreSQL](https://www.postgresql.org/) - database used for production.
 
+
+# Testing
+
+<div align="center"><img src = "readmeImages/test.png" width=900></div>
+
+
+
+<div align="center"><img src = "readmeImages/test1.png" width=900></div>
+
+
+<div align="center"><img src = "readmeImages/test2.png" width=900></div>
+
 # Deployment
 ## Heroku Deployment with AWS
 This website is deployed on [Heroku](https://www.heroku.com/), following these steps:
