@@ -181,7 +181,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 <div align="center"><img src = "readmeImages/admin.png" width=900></div>
 
-Only authenticated superusers can access the admin page (1.products/add/, 2. products/edit/, 3. products/delete/, 4. 5. 6. ). If non-logged in users try to access the url directly, it will redirect to the sign in page. If a non-superuser tries to access the url, an error message pops up which says that only a superuser can access this page.
+Only authenticated superusers can access the admin page (1.course/add/, 2. course/edit/, 3. course/delete/, 4. 5. 6. ). If non-logged in users try to access the url directly, it will redirect to the sign in page. If a non-superuser tries to access the url, an error message pops up which says that only a superuser can access this page.
 
 ## Django-allauth features
 Base template for allauth has `Back to Home` button at the end of the page, for easy navigation for users.
