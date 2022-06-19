@@ -85,7 +85,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 <br/>
 
-- Registration, User Accounts and User Community
+- **Registration User Accounts and User Community**
 
 | AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
 | ----------- | ----------- | ----------- |
@@ -99,7 +99,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 <br/>
 
-- Online course booking
+- **Online course booking**
 
 | AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
 | ----------- | ----------- | ----------- |
@@ -111,7 +111,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 <br/>
 
-- Cart, Purchasing and Checkout
+- **Cart Purchasing and Checkout**
 
 | AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
 | ----------- | ----------- | ----------- |
@@ -219,7 +219,7 @@ The main frontend development was created using HTML, CSS, JavaScript and their 
 - [SQlite3](https://www.sqlite.org/index.html)- database used for development.
 - [PostgreSQL](https://www.postgresql.org/) - database used for production.
 
-BACK-END
+**BACK-END**
 I am building a site to sell a Coaching Services
 
  External user’s goal: 
@@ -246,17 +246,16 @@ Advanced potential feature (nice-to-have)
 
 ● Build a custom js display mechanism for the Elyon Global Learning Hub Community Blog/reflective learning journal i.e learners’ experience .
 
-FRONT-END Content 
+**FRONT-END Content **
 
-Goals for Webdesign- 
-
+**Goals for Webdesign-** 
 
 Elyon Global Learning Hub [EGLH] is set up to 
 provide kickstarting  educational need driven experience with a profitable lifestyle 
 build on Individual  Prior Learning[IPL] outside the four walls of the mainstream setting for those who find group learning challenging in the traditional formal setting.
 
 
-SITE INTRODUCTION
+**SITE INTRODUCTION**
 
 
 Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget in 
@@ -293,12 +292,12 @@ Institute of Yoruba Language and Culture for the preservation of the Yoruba Cult
 **All courses are certified by recognised national and international awarding bodies. **
 
 **Learner's Data Acessibility**
-
-**Leaners’ Portfolio**
-Leaners’ end of course survey
-Learner's ratings | Evaluation
-**Learner's Experience**
-1. I enrolled for Teaching assistant  @ level 2 childcare course, I was surprised with leve of suppoert I received. Thanks to my Tutor | Mrs E
+This ia an E-learning global inclusive content for for individaul. Its content is adaptable to meet specific need. The feature development of content will include speech and sign lanuage to meet the nee of a global context of disability.
+**Leaners’ Portfolio** 
+The will store learners details and work submitted for internal and externation varification by course enrolled on by the awarding bodies
+**Leaners’ end of course survey** It will store feedback from learners by the end of their course inclyding cerfifications
+**Learner's ratings | Evaluation** i.e. Learner's Experience
+1. I enrolled for Teaching assistant  @ level 2 childcare course, I was surprised with leve of suppoert I received. Thanks to my Tutor | Mrs E 
 
 2. I am really enjoying the course and my placement now compared to my first review when I have not started my placement. I have gained a lot of knowledge from completing my previous assignments and continually developing new skills in the work environment from both the children and the staff. I have received a lot of support and helpful advice from my tutor.
 I hope that once I have completed the course, I will be able to progress with my career. | Mrs J Working with Children
