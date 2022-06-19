@@ -256,8 +256,6 @@ build on Individual  Prior Learning[IPL] outside the four walls of the mainstrea
 
 
 **SITE INTRODUCTION**
-
-
 Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget in 
 1. **NCFE: what is it, what does it stand for, and why should I care? **:
 https://www.stonebridge.uk.com/blog/learning-experience/ncfe-what-is-it-and-what-does-it-stand-for-and-why-should-i-care/
