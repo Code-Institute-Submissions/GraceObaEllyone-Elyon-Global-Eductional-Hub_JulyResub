@@ -259,31 +259,29 @@ build on Individual  Prior Learning[IPL] outside the four walls of the mainstrea
 Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget in 
 1. **NCFE: what is it, what does it stand for, and why should I care? **:
 https://www.stonebridge.uk.com/blog/learning-experience/ncfe-what-is-it-and-what-does-it-stand-for-and-why-should-i-care/
-. **Childcare ** | https://www.ncfe.org.uk/sector-specialisms/
+
+QualHub is our dedicated site where you can browse and search qualifications across NCFE and CACHE brands and submit qualifications for approval. You can also access all our delivery materials to support you in the delivery of our qualifications.(https://www.qualhub.co.uk/)
+**Childcare ** |
+(https://www.qualhub.co.uk/qualification-search/?SearchTerm=childcare%20&SelectedBrands=allBrands&SelectedFeatures=allFeatures&SelectedSectors=allSectors&SelectedLevels=allLevels&IsLive=true&IsInDevelopment=true&IsWithdrawn=true&IsQualification=true&IsApprenticeship=true&IsUnit=true&PageNumber=1&PageSize=10&SortBy=relevance)
 
    **Health and Social**
- 
+(https://www.qualhub.co.uk/qualification-search/?SearchTerm=health%20and%20social%20care&SelectedBrands=allBrands&SelectedFeatures=allFeatures&SelectedSectors=allSectors&SelectedLevels=allLevels&IsLive=true&IsInDevelopment=true&IsWithdrawn=true&IsQualification=true&IsApprenticeship=true&IsUnit=true&PageNumber=1&PageSize=10&SortBy=relevance)
+
 2. NOCN has been creating opportunities through learning and skills development for over 30 years.
-NOCN Group is an educational charity whose core aims are to help learners reach their potential and organisations thrive. The group includes business units specialising in regulated UK and international qualifications, End Point Assessment, Access to Higher Education, assured short courses, SMART job cards, assessment services, consultancy, and research.
+NOCN Group is an educational charity whose core aims are to help learners reach their potential and organisations thrive. The group includes business units specialising in regulated UK and international qualifications, End Point Assessment, Access to Higher Education, assured short courses, SMART job cards, assessment services, consultancy, and research.  https://www.nocn.org.uk/
 
-Our heritage, rooted in upskilling workers for redeployment in industrial Britain, informs our social mobility agenda, and our charitable status drives our purpose and activity:
-
-We believe passionately in the power of education and its impact
-We want more people to engage in education, apprenticeships and skills training, more often in their lives
-We want to build awareness and promote the positive value of education, apprenticeships and skills training to employers, learners and parents https://www.nocn.org.uk/
-  **Skills for Work ** | https://www.nocn.org.uk/products/qualifications/functional-skills/ 
+**Skills for Work ** | https://www.nocn.org.uk/products/qualifications/functional-skills/ 
       **Functional Skills** | Maths, English and ICT
        **Employability Skills **
          **Business support and Tourism** | https://www.cityandguilds.com/qualifications-and-apprenticeships/skills-for-work-and-life#fil=uk
- What are life skills?   https://www.britishcouncil.gr/en/life-skills/about/what-are-life-skills
- 
+
+
 3.  **Life skills is a term used to describe a set of basic skills acquired through learning and/or direct life experience that enable individuals and groups to effectively handle issues and problems commonly encountered in daily life.Life in UK **| https://www.britishcouncil.org/english/learn-online/courses
 
 4. British Sign Language
 Signature is the leading awarding body and provider of British Sign Language (BSL) and other Deaf and Deafblind qualifications in the UK. **Languages** | British Sign Language - https://www.signature.org.uk/ 
 
 5.Oduduwa International Institute of Yoruba Language and Culture
-
 Institute of Yoruba Language and Culture for the preservation of the Yoruba Culture among the descendants, learning to understand and speak the language is crucial.
 **Yoruba** https://www.aiiptr.org/oduduwa-international-institute-of-yoruba-language-and-culture/
 
