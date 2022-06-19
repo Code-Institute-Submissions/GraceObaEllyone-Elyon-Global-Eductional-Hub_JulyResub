@@ -41,7 +41,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 3. [Information Architecture](#information-architecture)
     - [Database Choice](#database-choice)
-    - [Data Modeling](#data-modeling)
+    
 
 4. [Technologies Used](#technologies-used)
     - [Languages](#languages)
