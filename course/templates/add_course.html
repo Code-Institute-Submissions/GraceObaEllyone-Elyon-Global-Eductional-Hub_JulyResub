@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load crispy_forms_filters %} {% load static %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "Add Course" %}{% endblock %}
+
+{% block content %}
+
+
+      <!-- breadcrumb start -->
+    <div class="breadcrumb-area bg-overlay" style="background-image:url('{% static 'assets/img/bg/3.png' %}')">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <div class="section-title mb-0 text-center">
+                    <h2 class="page-title">{% trans "Add Course" %}</h2>
+                    <ul class="page-list">
+                        <li><a href="{% url 'home' %}">Admin</a></li>
+                        <li>Add Course</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb end -->
+
+
+
+
+
+{% get_providers as socialaccount_providers %}
+
+{% if socialaccount_providers %}
+
+
+<div class="socialaccount_ballot">
+
+  <ul class="socialaccount_providers">
+    {% include "socialaccount/snippets/provider_list.html" with process="login" %}
+  </ul>
+
+  <div class="login-or">{% trans 'or' %}</div>
+
+</div>
+
+{% include "socialaccount/snippets/login_extra.html" %}
+
+{% else %}
+
+
+{% endif %}
+
+    <!-- signin-page-Start -->
+    <div class="signin-page-area pd-top-120 pd-bottom-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7">
+                    <form class="signin-inner" method="POST" action="{% url 'add_course' %}" >
+                        {% csrf_token %}
+                            {{ form|crispy }}
+                        <div class="row">
+                            {% if redirect_field_value %}
+                            <div class="col-12">
+                                <div class="single-input-inner style-bg-border">
+                                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                                </div>
+                            </div>
+                            {% endif %}
+                            <div class="col-12 mb-4">
+                                <button class="btn btn-base w-100">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signin-page-end -->
+
+{% endblock %}
