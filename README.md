@@ -74,7 +74,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 ## User Stories
 
-- Viewing and Navigation
+- **Viewing and Navigation**
 
 | AS A/AN     | I WANT TO BE ABLE TO ... | SO THAT I CAN... |
 | ----------- | ----------- | ----------- |
