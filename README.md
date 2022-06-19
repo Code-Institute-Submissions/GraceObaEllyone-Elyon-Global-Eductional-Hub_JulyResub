@@ -270,10 +270,15 @@ QualHub is our dedicated site where you can browse and search qualifications acr
 2. NOCN has been creating opportunities through learning and skills development for over 30 years.
 NOCN Group is an educational charity whose core aims are to help learners reach their potential and organisations thrive. The group includes business units specialising in regulated UK and international qualifications, End Point Assessment, Access to Higher Education, assured short courses, SMART job cards, assessment services, consultancy, and research.  https://www.nocn.org.uk/
 
-**Skills for Work ** | https://www.nocn.org.uk/products/qualifications/functional-skills/ 
-      **Functional Skills** | Maths, English and ICT
-       **Employability Skills **
-         **Business support and Tourism** | https://www.cityandguilds.com/qualifications-and-apprenticeships/skills-for-work-and-life#fil=uk
+**Skills for Work **
+
+      **Functional Skills** | Maths, English and ICT  | https://www.nocn.org.uk/products/qualifications/functional-skills/ 
+      
+       **Employability Skills ** can be defined as the transferable skills needed by an individual to make them 'employable'. Along with good technical understanding and subject knowledge, employers often outline a set of skills that they want from an employee.
+       https://www.asdan.org.uk/employability/
+       
+         **Business support and Tourism** 
+This course aims to provide the student with knowledge and understanding of the activities required to manage a business, and to ensure that it prospers, in a dynamic global business environment| https://www.cityandguilds.com/qualifications-and-apprenticeships/skills-for-work-and-life#fil=uk
 
 
 3.  **Life skills is a term used to describe a set of basic skills acquired through learning and/or direct life experience that enable individuals and groups to effectively handle issues and problems commonly encountered in daily life.Life in UK **| https://www.britishcouncil.org/english/learn-online/courses
@@ -289,9 +294,12 @@ Institute of Yoruba Language and Culture for the preservation of the Yoruba Cult
 
 **Learner's Data Acessibility**
 This ia an E-learning global inclusive content for for individaul. Its content is adaptable to meet specific need. The feature development of content will include speech and sign lanuage to meet the nee of a global context of disability.
+
 **Leaners’ Portfolio** 
 The will store learners details and work submitted for internal and externation varification by course enrolled on by the awarding bodies
+
 **Leaners’ end of course survey** It will store feedback from learners by the end of their course inclyding cerfifications
+
 **Learner's ratings | Evaluation** i.e. Learner's Experience
 1. I enrolled for Teaching assistant  @ level 2 childcare course, I was surprised with leve of suppoert I received. Thanks to my Tutor | Mrs E 
 
