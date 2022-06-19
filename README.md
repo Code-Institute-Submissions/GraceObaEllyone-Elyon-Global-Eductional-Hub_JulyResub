@@ -29,7 +29,7 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 2. [Features](#features)
     - [Existing Features](#existing-features)
         - [Landing Page](#landing-page)
-        - [Courses Page](#product-page)
+        - [Courses Page](#course-page)
         - [Cart Page](#cart-page)
         - [Checkout Page](#checkout-page)
         - [Blog Page](#blog-page)
@@ -125,6 +125,100 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 
 ## Design
+
+
+
+# Features
+
+## Existing Features
+
+## Landing Page
+
+## Course Page
+
+## Cart Page
+
+## Checkout Page
+### Checkout Page
+
+### Checkout Success Page
+
+
+## Blog Page
+### Blog Feed Page
+
+- After clicking `Blog` on the site menu at the top, Blog Feed page is loaded. On this page, blog posts will be displayed in descending order by the posted date. To display the blog posts beautifully, the layout that shows posts in 2-1-2 order was chosen. `Pagination Bar` is also added at the end of the page.
+- On the left side of this page, I created categories of blog posts so the site visitors can navigate the blog posts easily. The number of posted blogs in the categories is also shown in brackets.
+
+### Blog Post Detail Page
+- `Breadcrumb` navigation is added at the top of the blog post detail page for easy navigation.
+- `Leave Comment` function: Site visitors are able to leave comments on blog posts. It requires the visitors to log into their account to do so. Also, after logging in, they can delete comments they left in the past with the delete option shown next to their comment(s).
+- If user is logged in as superuser, they can see the choice of edit/delete at the top of the page.
+
+### Add/Edit Blog
+- If user is logged in as superuser, they can access to Add / Edit Blog post page. This page is combined with two forms `BlogForm` and `BlogImageForm`.
+
+## Profiles Page
+`My Profile` page is available for authenticated users and will be shown in the `My Account` Dropdown menu at the navbar which appears when you log into your account.
+### My Profile Page
+- In Profile Page, authenticated users can 1. edit `Delivery Information` and 2. see `Order History`.
+
+## Admin Product Managment
+Only authenticated superusers can access the admin page (1.products/add/, 2. products/edit/, 3. products/delete/, 4. 5. 6. ). If non-logged in users try to access the url directly, it will redirect to the sign in page. If a non-superuser tries to access the url, an error message pops up which says that only a superuser can access this page.
+
+## Django-allauth features
+Base template for allauth has `Back to Home` button at the end of the page, for easy navigation for users.
+- Sign Up: The users will be asked to fill out `E-mail`, `User Name` and `Password` to create an account. When the sign up form is submitted, a verification email will be sent to the user's email address to complete the sign up process.
+- Log In: Users will be asked to input `User Name` or `Email`, and `Password` to login. If the user successfully logged in, a success message will pop up and redirect to the landing page.
+- Log out: Log out page is accessible from the site menu. After the user successfully signed out button on the sign out page, a success message will appear and redirect to the landing page.
+- Forgot password: Forgot password page is accessible from Sign In page. Users will be asked to put in an email address which they have used for their registration to the site. An email with a link to reset the password will be sent after submitting the form.
+
+## Features Left to Implement
+
+### Form Validation
+- Django Form Validation
+
+# Information Architecture
+## Database choice
+- Development phase
+**SQLight** database was used for the development which is installed with Django. 
+
+- Deployment phase
+**PostgreSQL** was used on deployment stage, which is provided as add-on by Heroku application.
+
+
+# Technologies Used
+The main frontend development was created using HTML, CSS, JavaScript and their libraries. The main backend development was powered by Python and Django.
+
+## Languages
+- HTML, CSS, JavaScript, Python
+
+## Libraries and Packages
+- [Django](https://www.djangoproject.com/)
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)
+- [Bootstrap (v4.4.1)](https://www.bootstrapcdn.com/)
+- [JQuery](https://jquery.com/)
+- [JQuery-UI](https://jqueryui.com/)
+- [Popper.js](https://popper.js.org/)
+- [Font Awesome](https://fontawesome.com/)
+- [Animate.css](https://animate.style/)
+- [Wow.js](https://www.delac.io/wow/)
+- [Stripe](https://stripe.com/ie)
+- [Google Fonts](https://fonts.google.com/)
+
+
+## Tools
+- Git/GitHub
+- Gitpod
+- [PIP](https://pip.pypa.io/en/stable/installing/)
+- [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
+- [dbdiagram.io](https://dbdiagram.io/home)
+- [AWS S3 bucket](https://aws.amazon.com/)
+
+## Databases
+- [SQlite3](https://www.sqlite.org/index.html)- database used for development.
+- [PostgreSQL](https://www.postgresql.org/) - database used for production.
 
 BACK-END
 I am building a site to sell a Coaching Services
