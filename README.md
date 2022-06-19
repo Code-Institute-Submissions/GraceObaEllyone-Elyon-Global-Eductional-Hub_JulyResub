@@ -134,17 +134,28 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 
 ## Landing Page
 
+<div align="center"><img src = "readmeImages/landingpage.png" width=900></div>
+
 ## Course Page
 
+<div align="center"><img src = "readmeImages/course.png" width=900></div>
+
 ## Cart Page
+
+<div align="center"><img src = "readmeImages/cart.png" width=900></div>
 
 ## Checkout Page
 ### Checkout Page
 
-### Checkout Success Page
+<div align="center"><img src = "readmeImages/checkout.png" width=900></div>
+
+
 
 
 ## Blog Page
+
+<div align="center"><img src = "readmeImages/blog.png" width=900></div>
+
 ### Blog Feed Page
 
 - After clicking `Blog` on the site menu at the top, Blog Feed page is loaded. On this page, blog posts will be displayed in descending order by the posted date. To display the blog posts beautifully, the layout that shows posts in 2-1-2 order was chosen. `Pagination Bar` is also added at the end of the page.
@@ -159,11 +170,17 @@ This image is created with [smartmockups.com](http://smartmockups.com/).
 - If user is logged in as superuser, they can access to Add / Edit Blog post page. This page is combined with two forms `BlogForm` and `BlogImageForm`.
 
 ## Profiles Page
+
+
+
 `My Profile` page is available for authenticated users and will be shown in the `My Account` Dropdown menu at the navbar which appears when you log into your account.
 ### My Profile Page
 - In Profile Page, authenticated users can 1. edit `Delivery Information` and 2. see `Order History`.
 
 ## Admin Product Managment
+
+<div align="center"><img src = "readmeImages/admin.png" width=900></div>
+
 Only authenticated superusers can access the admin page (1.products/add/, 2. products/edit/, 3. products/delete/, 4. 5. 6. ). If non-logged in users try to access the url directly, it will redirect to the sign in page. If a non-superuser tries to access the url, an error message pops up which says that only a superuser can access this page.
 
 ## Django-allauth features
