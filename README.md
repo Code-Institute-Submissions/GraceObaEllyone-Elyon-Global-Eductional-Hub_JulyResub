@@ -260,32 +260,51 @@ SITE INTRODUCTION
 
 
 Elyon Global Learning welcomes you to its remote learning hub. We provide both accredited and non-accredited vocational course that meet your need within your affordable budget in 
+1. **NCFE: what is it, what does it stand for, and why should I care? **:
+https://www.stonebridge.uk.com/blog/learning-experience/ncfe-what-is-it-and-what-does-it-stand-for-and-why-should-i-care/
+. **Childcare ** | https://www.ncfe.org.uk/sector-specialisms/
 
-Childcare Health and Social Care
+   **Health and Social**
+ 
+2. NOCN has been creating opportunities through learning and skills development for over 30 years.
+NOCN Group is an educational charity whose core aims are to help learners reach their potential and organisations thrive. The group includes business units specialising in regulated UK and international qualifications, End Point Assessment, Access to Higher Education, assured short courses, SMART job cards, assessment services, consultancy, and research.
 
-Business support and Tourism
+Our heritage, rooted in upskilling workers for redeployment in industrial Britain, informs our social mobility agenda, and our charitable status drives our purpose and activity:
 
-Languages  | British Sign Language, Yoruba
-. 
-Functional Skills | Maths, English and ICT
+We believe passionately in the power of education and its impact
+We want more people to engage in education, apprenticeships and skills training, more often in their lives
+We want to build awareness and promote the positive value of education, apprenticeships and skills training to employers, learners and parents https://www.nocn.org.uk/
+  **Skills for Work ** | https://www.nocn.org.uk/products/qualifications/functional-skills/ 
+      **Functional Skills** | Maths, English and ICT
+       **Employability Skills **
+         **Business support and Tourism** | https://www.cityandguilds.com/qualifications-and-apprenticeships/skills-for-work-and-life#fil=uk
+ What are life skills?   https://www.britishcouncil.gr/en/life-skills/about/what-are-life-skills
+ 
+3.  **Life skills is a term used to describe a set of basic skills acquired through learning and/or direct life experience that enable individuals and groups to effectively handle issues and problems commonly encountered in daily life.Life in UK **| https://www.britishcouncil.org/english/learn-online/courses
 
-Employability Skills
+4. British Sign Language
+Signature is the leading awarding body and provider of British Sign Language (BSL) and other Deaf and Deafblind qualifications in the UK. **Languages** | British Sign Language - https://www.signature.org.uk/ 
 
-Life in UK
-All courses are certified by recognised national and international awarding bodies. 
+5.Oduduwa International Institute of Yoruba Language and Culture
 
-Learner's Data Acessibility
+Institute of Yoruba Language and Culture for the preservation of the Yoruba Culture among the descendants, learning to understand and speak the language is crucial.
+**Yoruba** https://www.aiiptr.org/oduduwa-international-institute-of-yoruba-language-and-culture/
 
-Leaners’ Portfolio
+**All courses are certified by recognised national and international awarding bodies. **
+
+**Learner's Data Acessibility**
+
+**Leaners’ Portfolio**
 Leaners’ end of course survey
 Learner's ratings | Evaluation
+**Learner's Experience**
+1. I enrolled for Teaching assistant  @ level 2 childcare course, I was surprised with leve of suppoert I received. Thanks to my Tutor | Mrs E
+
+2. I am really enjoying the course and my placement now compared to my first review when I have not started my placement. I have gained a lot of knowledge from completing my previous assignments and continually developing new skills in the work environment from both the children and the staff. I have received a lot of support and helpful advice from my tutor.
+I hope that once I have completed the course, I will be able to progress with my career. | Mrs J Working with Children
 
 
-
-
-
-
-Credits 🙏 
+**Credits 🙏 **
 Code Institute Stack Overflow Code Institute Slack Community. 
 My mentor Guido Cecilio for guidance and support. 
 My family and friends for their patience and honest critique throughout. 
