@@ -236,6 +236,20 @@ The main frontend development was created using HTML, CSS, JavaScript and their 
 - [SQlite3](https://www.sqlite.org/index.html)- database used for development.
 - [PostgreSQL](https://www.postgresql.org/) - database used for production.
 
+# Deployment
+## Heroku Deployment with AWS
+This website is deployed on [Heroku](https://www.heroku.com/), following these steps:
+1. Install these packages to your local environment, since these packages are required to deploy a Django project on Heroku.
+- [gnicorn](https://gunicorn.org/): `gnicorn` is Python WSGI(web server gataway interface) server for UNIX.
+- [gninx](https://www.nginx.com/): `gninx` is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server.
+- [psycopg2-binary](https://pypi.org/project/psycopg2-binary/): `psycopg2-binary` is PostgreSQL database adapter for the Python programming language.
+- [dj-database-url](https://pypi.org/project/dj-database-url/): `dj-database-url` allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application.
+2. Create a `requirements.txt` file and freeze all the modules with the command `pip3 freeze > requirements.txt` in the terminal.
+3. Create a `Procfile` write `web: gunicorn boutique_ado.wsgi:application` in the file.
+4. `git add` and `git commit` and `git push` all the changes to the Github repositoty of this project.
+5. Go to Heroku and create a **new app**. Set a name for this app and select the closest region (Europe) and click **Create app**.
+6. Go to **Resources** tab in Heroku, then in the **Add-ons** search bar look for **Heorku Postgres**(you can type postgres), select **Hobby Dev — Free** and click **Submit Order Form** button to add it to your project.
+
 **BACK-END**
 I am building a site to sell a Coaching Services
 
